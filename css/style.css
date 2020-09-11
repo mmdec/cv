@@ -60,13 +60,13 @@ a:hover{
 }
 .top-cloud{
   position: absolute;
-  right: 450px;
+  right: 15%  ;
   top:50px;
 }
 
 .bottom-cloud{
   position: absolute;
-  left: 450px;
+  left: 20%;
   bottom:340px;
 }
 .profile-img{
@@ -74,9 +74,14 @@ a:hover{
   height: 200px;
   border-radius: 100%;
 }
-.skill-img{
+.skill-img-l{
   width: 25%;
   float: left;
+  margin-right: 30px;
+}
+.skill-img-r{
+  width: 25%;
+  float: right;
   margin-right: 30px;
 }
 .skill-row{
@@ -91,6 +96,10 @@ a:hover{
 }
 .skill-r{
   text-align: left;
+}
+.contact-message{
+  width: 30%;
+  margin: 50px auto 20px;
 }
 
 .btn {
